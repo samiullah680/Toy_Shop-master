@@ -1,0 +1,169 @@
+.product_main_div{
+    background-color: var(--hcbgc);
+    margin-top: -20px;
+    padding-top: 20px;
+    color: var(--hcbc);
+}
+
+.Filterbtn{
+    position: absolute;
+    right: 0;
+    margin-right: 5%;
+
+    width: 65px;
+    display: flex;
+    color: white;
+    background-color: #49c788;
+   
+
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.Filterbtns{
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #49c788;
+    font-size: 16px;
+}
+.filterDrawer{
+    background-color: var(--hcbgc);
+    color: var(--hcbc);
+    height: 100vh;
+}
+.applybtn{
+    color: rgb(255, 255, 255);
+    background-color: #c70e17;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+ 
+}
+#opt1{
+    width: 100%;
+    padding: 10px 5px;
+    color: gray;
+    outline: none;
+}
+#opt2{
+    width: 100%;
+    padding: 10px 5px;
+    color: gray;
+    outline: none;
+}
+.Product_main_div{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     padding: 20px;
+     margin-top: 40px;
+}
+.srchDiv{
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+}
+.searchbox{
+    padding: 10px 20px;
+    text-align: center;
+ 
+    border: 2px solid rgb(84, 10, 204);
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 5px;
+}
+.card{
+    /* border-radius: 5px; */
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+    /* background-color: var( --navbgclr); */
+    background-color:#9f9cdd;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    /* cursor: pointer; */
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+.ProductImage{
+    width: 250px;
+    height: 200px;
+    margin: auto;
+}
+.offer_div{
+    position: absolute;
+ 
+    margin: 4px 2px;
+    padding: 3px 3px;
+    background-color: rgb(245, 0, 135);
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+    /* border-radius: 20px; */
+    font-size: 15px;
+}
+.wishDiv{
+    position: absolute;
+    margin-left: auto;
+    margin-right: 15px;
+    /* margin-top: 10px; */
+    padding: 2px 2px;
+    border-radius: 50px;
+    /* margin: 5px; */
+    /* background-color: #1b8ad2; */
+    right: 0;  
+}
+.proimage{
+    width: 250px;
+    height: 200px;
+}
+.prottl{
+    font-family: cursive;
+    font-style: italic;
+    width: 200px;
+    margin: 6px auto;
+    text-align: center;
+    height: 65px;
+
+}
+.addtocart{
+    padding: 8px 30px;
+    border: 3.2px solid crimson;
+    background-color: rgb(255, 250, 250);
+    color:rgb(5, 16, 110);
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.Reviewbtn{
+    cursor: pointer;
+}
+.bttbtn{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #e0013d;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+@media screen and (max-width:600px) {
+    .proimage{
+        width: 300px;
+        height: 250px;
+    }
+    .ProductImage{
+        width: 300px;
+        height: 250px;
+    }
+}

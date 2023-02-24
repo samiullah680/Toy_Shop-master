@@ -1,0 +1,253 @@
+:root {
+  /* --navbgclr: #f9dfe6; */
+  
+  /* --navbgclr:#da8299; */
+  --hcbgc: White;
+  --hcbc: black;
+  --fbc: #eee;
+  --nlc: black;
+}
+.themes {
+  --navbgclr: rgb(34, 34, 34);
+  --hcbgc: rgb(49, 49, 49);
+  --hcbc: white;
+  --fbc: #283644;
+  --nlc: white;
+}
+.nav {
+  background-color: var(--navbgclr);
+  background-color: #72d5d8;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.menu_icon {
+  color: var(--hcbc);
+}
+.navlinkdrawer {
+  background-color: var(--hcbgc);
+  height: 100vh;
+}
+.drawercart {
+  background-color: var(--hcbgc);
+  color: var(--hcbc);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding: 10px 0px;
+}
+.logo_heading {
+  color: #71057a;
+  /* font-family: "DynaPuff", cursive; */
+  font-size: 25px;
+}
+.logohead {
+  color: #1b8ad2;
+  text-decoration: none;
+}
+.navLinks1 ul {
+  list-style-type: none;
+  display: flex;
+}
+.navLinks1 ul > li {
+  margin-top: 5px;
+  margin-right: 25px;
+}
+.nav_links {
+  color: var(--nlc);
+  font-size: larger;
+  text-decoration: none;
+  /* font-family: "Courgette", cursive; */
+  font-weight: 400;
+  font-size: 20px;
+}
+.navlinks2 {
+  color: #1b8ad2;
+  margin-top: 20px;
+  font-size: larger;
+  margin-right: -20px;
+}
+.ssicons {
+  cursor: pointer;
+  color: #1b8ad2;
+}
+.cartlink {
+  color: #cfb53b;
+}
+.cnlicon {
+  top: 0;
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.cnl {
+  font-size: 40px;
+}
+.srch {
+  width: 60%;
+  margin: auto;
+}
+.searchBox {
+  background-color: rgba(128, 128, 128, 0.247);
+  top: 50%;
+  position: absolute;
+  width: 100%;
+  border: none;
+  padding: 15px 0px;
+  text-align: center;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  width: 60%;
+  font-size: 25px;
+  outline: none;
+  color: white;
+}
+.searchBox::placeholder {
+  color: #ddd;
+}
+.hamburger {
+  display: none;
+  margin-top: 10px;
+}
+.drawerLink ul {
+  list-style-type: none;
+}
+.drawerLink ul > li {
+  padding-top: 10px;
+}
+.cartDrawer {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #cfb53b;
+  height: 40vh;
+  overflow: auto;
+}
+.cartdetails {
+  display: flex;
+  border-bottom: 1px solid black;
+  margin: 5px;
+}
+.details {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+.elebtn {
+  border: none;
+  background-color: gray;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+}
+.wishDiv1 {
+  display: flex;
+}
+.rmbtns {
+  text-align: center;
+  justify-content: center;
+  padding: 5px 0px;
+}
+.Rfwb {
+  padding: 6px 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid blue;
+  background-color: #eec4bc;
+  color:rgb(20, 8, 8);
+}
+.mtcb {
+  box-shadow: 2px 2px 4px black;
+  padding: 7px 16px;
+  cursor: pointer;
+   background-color: rgb(148, 240, 10);
+  border: 2px solid #75055d;
+  border-radius: 10px;
+  color:black;
+  font-weight: bold;
+}
+.checkout {
+  float: right;
+  clear: right;
+  margin-right: 20px;
+  margin-top: -20px;
+}
+.checkbtn {
+  padding: 8px 20px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.confirm {
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+.cancelbtn {
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+.removebtndiv {
+  margin-top: 140px;
+  margin-right: 30px;
+}
+.removebtn {
+  border: none;
+  padding: 10px 25px;
+  background-color: #283644;
+  color: #cfb53b;
+  border-style: outset;
+  cursor: pointer;
+}
+.emptybtndiv {
+  float: right;
+  clear: right;
+  margin-right: 20px;
+}
+.empty_btn {
+  padding: 8px 20px;
+  background-color: #1f1d1d;
+  color: #cfb53b;
+  font-size: 16px;
+  border-style: outset;
+  cursor: pointer;
+}
+.themetogglebtn{
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 20px;
+  /* margin-left: 5px; */
+  background-color: var(--navbgclr);
+  /* border-radius: 40px; */
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media screen and (max-width: 750px) {
+  .navbar {
+    width: 90%;
+  }
+  .navLinks1 {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .cartdetails {
+    flex-direction: column;
+  }
+}

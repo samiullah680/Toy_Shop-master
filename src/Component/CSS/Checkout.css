@@ -1,0 +1,21 @@
+body {
+    background-color: var(--hcbgc);
+    color: var(--hcbc);
+}
+.checkoutMainDiv{
+    text-align: center;
+}
+.checkoutimg{
+    padding-top: 100px;
+    /* background-color: var(--hcbgc); */
+}
+.goHome{
+    padding: 10px 20px;
+    background-color: #500763;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+   border-radius: 5px;
+   
+}

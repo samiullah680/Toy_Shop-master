@@ -1,0 +1,176 @@
+.slide1 {
+  background-image: url("https://i.ytimg.com/vi/eHb33AkEgdU/maxresdefault.jpg");
+  height: 60vh;
+  background-size: 100% 100%;
+}
+.slick-arrow.slick-prev {
+  color: gray;
+  margin-left: 40px;
+  z-index: 1;
+}
+.slick-arrow.slick-next {
+  color: gray;
+  margin-right: 50px;
+  z-index: 1;
+}
+.slick-arrow.slick-prev:before,
+.slick-arrow.slick-next:before {
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.slide2 {
+  background-image: url("https://previews.123rf.com/images/mordecio/mordecio1912/mordecio191200002/135743835-top-view-on-childrens-toys-on-a-blue-background-childrens-toys-on-the-table-concept-for-advertising-.jpg");
+  height: 60vh;
+  background-size: 100% 100%;
+}
+.slide2btn_div {
+  position: absolute;
+  top: 46%;
+  margin-left: 2%;
+}
+.slide2btn {
+  padding: 10px 25px;
+  border-radius: 50px;
+  border: 1px solid black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  background-color: #fbe0ab;
+  color: crimson;
+  cursor: pointer;
+}
+.catehead {
+  text-align: center;
+  font-size: 25px;
+}
+.catehead2{
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
+.home_div2 {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  margin: auto;
+  background-color: var(--hcbgc);
+}
+.abthead {
+  text-align: center;
+  font-size: 25px;
+}
+.home_div3 {
+  background-color: #f9dfe6;
+}
+
+.cards {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  background-color: var( --navbgclr);
+}
+.cards:hover {
+  box-shadow: rgba(7, 10, 224, 0.35) 5px 5px 10px;
+  
+
+  cursor: pointer;
+}
+.imgcat {
+  width: 60%;
+  height: 200px;
+  margin: auto;
+  margin-top: 30px;
+}
+.headcat {
+  color: var(--hcbc);
+}
+.cate_img {
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+}
+
+#about-div{
+  width: 100%;
+ 
+}
+
+.row-1{
+  display: flex;
+  padding: 5px;
+  margin: 10px;
+
+}
+.row-1 div{
+  width: 100%;
+  margin: 10px;
+  height: 50vh;
+ 
+}
+.img-1{
+  box-shadow: rgb(245, 7, 39) 0px 20px 30px -10px;
+  border-top-left-radius: 55px; border-bottom-right-radius: 55px;
+}
+
+.row-2{
+  display: flex;
+  padding: 5px;
+  margin: 10px;
+}
+.row-2 div{
+  width: 100%;
+  height: 50vh;
+  margin: 10px;
+
+}
+.img-2{
+  box-shadow: rgb(240, 6, 25) 0px 20px 30px -10px;
+  border-bottom-right-radius: 55px;  border-top-left-radius: 55px;
+}
+
+.content-1{
+ padding: 25px;
+ font-size: 26px;
+
+}
+.content-2{
+ padding: 25px;
+ font-size: 26px;
+
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 991px) {
+  .home_div2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cards {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 599px) {
+  .home_div2 {
+    flex-direction: column;
+  }
+  .cards {
+    width: 80%;
+    margin: auto;
+  }
+  .home_div3 {
+    flex-direction: column;
+  }
+  .row-1{
+    display: flex;
+    flex-direction: column;
+  }
+  .row-2{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

@@ -1,0 +1,123 @@
+.cart_div{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+.cartcondiv{
+    width: 69%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cartimg{
+    width: 150px;
+}
+.rmbtndiv{
+    display: flex;
+    margin-left: auto;
+    margin-right: 5%;
+    align-items: center;
+    /* text-align: right; */
+    justify-content: right;
+}
+.cartcon{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+.checkoutDiv{
+    width: 30%;
+    padding: 5px;
+}
+.nameQuan{
+    margin-left: 10px;
+    display: flex;
+}
+.incdecbtn{
+    padding: 7px 18px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius:8px;
+    /* border-radius: 50%; */
+    border: 1px solid #370e4e;
+    background-color: #693b65;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 20px;
+    color: white;
+}
+.CheckOutSec{
+    margin-left: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.prices{
+    font-size: 15px;
+}
+.prichead{
+    /* color: #cf102d; */
+    color: rgb(39, 2, 126);
+}
+.rifcbtn{
+    padding: 9px 18px;
+    background-color: rgb(231, 10, 66);
+    border: 1px solid rgb(240 199 176);
+    /* box-shadow: 2px 3px 0 0 rgb(231, 149, 101); */
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+.elementcheck{
+    padding: 0px 10px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.quanNo{
+    padding: 5px 10px;
+    border-radius: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.CheckoutBtn{
+    padding: 8px 22px;
+    background-color: white;
+   border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #cf102d;
+    background-color: khaki;
+    
+}
+.gts{
+    padding: 8px 30px;
+    border: none;
+    background-color: #1b8ad2;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+@media screen and (max-width:750px) {
+    .cart_div{
+        flex-direction: column;
+    }
+    .cartcondiv{
+        width: 96%;
+        margin: auto;
+    }
+    .checkoutDiv{
+        width: 96%;
+        margin-top: 20px;
+    }
+    .cartimg{
+        width: 100px;
+    }
+    .rmbtndiv{
+        margin-left: auto;
+        margin-right: 4%;
+    }
+}
